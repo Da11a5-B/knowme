@@ -11,7 +11,7 @@ st.subheader("Showcasing Professional Achievements and Leadership")
 # Profile Section
 col1, col2 = st.columns([1, 3])
 with col1:
-    profile_image = Image.open("profile_image.png")  # Replace with your profile image file
+    profile_image = Image.open
     st.image(profile_image, caption="Dallas Hall", use_column_width=True)
 
 with col2:
@@ -65,5 +65,3 @@ st.write("Explore more pages and content to learn about my journey. (Coming Soon
 # Footer
 st.markdown("---")
 st.caption("Site powered by Streamlit")
-
-
