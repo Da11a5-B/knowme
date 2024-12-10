@@ -46,9 +46,10 @@ st.subheader("Case Studies")
 show_lightbox("Go-To-Market Strategies", "In-depth look at successful product launches and market entry strategies.")
 show_lightbox("Tech Innovations", "Innovative projects leveraging AI and LLMs.")
 
-# Resume Download
-st.subheader("Download My Resume")
-with open("resume.pdf", "rb") as file:
+# Resume Section
+st.subheader("Resume")
+st.write("Download my resume using the button below:")
+st.download_button(label="Download PDF", data=None, file_name="Dallas_Hall_Resume.pdf", mime="application/pdf")
 
 # Media and External Links Section
 st.subheader("Featured Media")
