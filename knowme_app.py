@@ -54,7 +54,7 @@ st.download_button(label="Download PDF", data=None, file_name="Dallas_Hall_Resum
 # Media and External Links Section
 st.subheader("Featured Media")
 # Embedding example video and images
-st.video("https://www.youtube.com/watch?v=example")  # Replace with actual YouTube link
+st.video("https://www.youtube.com")  # Replace with actual YouTube link
 
 st.image(["achievement1.jpg", "achievement2.jpg"], caption=["Achievement 1", "Achievement 2"], use_column_width=True)
 
@@ -64,6 +64,6 @@ st.write("Explore more pages and content to learn about my journey. (Coming Soon
 
 # Footer
 st.markdown("---")
-st.caption("Site powered by Streamlit | Designed by Dallas Hall")
+st.caption("Site powered by Streamlit")
 
 
