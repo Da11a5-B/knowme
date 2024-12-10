@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 # Page configuration
 st.set_page_config(page_title="Professional Achievements", layout="centered")
@@ -11,8 +10,7 @@ st.subheader("Showcasing Professional Achievements and Leadership")
 # Profile Section
 col1, col2 = st.columns([1, 3])
 with col1:
-    profile_image = Image.open
-    st.image(profile_image, caption="Dallas Hall", use_column_width=True)
+    st.empty()  # Placeholder for profile image
 
 with col2:
     st.write("""
@@ -32,31 +30,23 @@ Hi! I'm Dallas Hall, an experienced Product Manager with expertise in AI, SaaS, 
 # Achievements Section
 st.subheader("Key Achievements")
 
-def show_lightbox(title, content):
-    """Helper function to simulate a lightbox experience."""
-    with st.expander(title):
-        st.write(content)
-
-show_lightbox("Growth Initiatives", "Details about scaling teams, revenue growth, and driving product adoption.")
-show_lightbox("Cross-team Collaboration", "Details about leading multi-functional teams and projects.")
-show_lightbox("Customer Relations", "Highlights of maintaining key stakeholder relationships and client success stories.")
+# Placeholder for achievements
+st.empty()
 
 # Case Studies Section
 st.subheader("Case Studies")
-show_lightbox("Go-To-Market Strategies", "In-depth look at successful product launches and market entry strategies.")
-show_lightbox("Tech Innovations", "Innovative projects leveraging AI and LLMs.")
+
+# Placeholder for case studies
+st.empty()
 
 # Resume Section
 st.subheader("Resume")
-st.write("Download my resume using the button below:")
-st.download_button(label="Download PDF", data=None, file_name="Dallas_Hall_Resume.pdf", mime="application/pdf")
+st.write("Resume download functionality coming soon.")
 
 # Media and External Links Section
 st.subheader("Featured Media")
-# Embedding example video and images
-st.video("https://www.youtube.com")  # Replace with actual YouTube link
-
-st.image(["achievement1.jpg", "achievement2.jpg"], caption=["Achievement 1", "Achievement 2"], use_column_width=True)
+# Placeholder for media
+st.empty()
 
 # Additional Functionality Placeholder for Pages
 st.subheader("More About Me")
@@ -64,4 +54,6 @@ st.write("Explore more pages and content to learn about my journey. (Coming Soon
 
 # Footer
 st.markdown("---")
-st.caption("Site powered by Streamlit")
+st.caption("Site powered by Streamlit | Designed by Dallas Hall")
+
+
