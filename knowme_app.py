@@ -10,7 +10,7 @@ st.subheader("Showcasing Professional Achievements and Leadership")
 # Profile Section
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.empty()  # Placeholder for profile image
+    st.write("[Profile Image Placeholder]")
 
 with col2:
     st.write("""
@@ -29,24 +29,35 @@ Hi! I'm Dallas Hall, an experienced Product Manager with expertise in AI, SaaS, 
 
 # Achievements Section
 st.subheader("Key Achievements")
-
-# Placeholder for achievements
-st.empty()
+col1, col2 = st.columns(2)
+with col1:
+    st.write("[Growth Box Placeholder]")
+    st.write("[GTM Box Placeholder]")
+with col2:
+    st.write("[Cross-Team Collaboration Placeholder]")
+    st.write("[Customer Relations Placeholder]")
 
 # Case Studies Section
 st.subheader("Case Studies")
-
-# Placeholder for case studies
-st.empty()
+col1, col2 = st.columns(2)
+with col1:
+    st.write("[Growth Case Study Placeholder]")
+    st.write("[GTM Case Study Placeholder]")
+with col2:
+    st.write("[Cross-Team Collaboration Case Study Placeholder]")
+    st.write("[Customer Relations Case Study Placeholder]")
 
 # Resume Section
 st.subheader("Resume")
-st.write("Resume download functionality coming soon.")
+st.write("[Resume Box Placeholder]")
 
 # Media and External Links Section
 st.subheader("Featured Media")
-# Placeholder for media
-st.empty()
+col1, col2 = st.columns(2)
+with col1:
+    st.write("[Media Image/Video Placeholder]")
+with col2:
+    st.write("[Media Image/Video Placeholder]")
 
 # Additional Functionality Placeholder for Pages
 st.subheader("More About Me")
@@ -55,5 +66,4 @@ st.write("Explore more pages and content to learn about my journey. (Coming Soon
 # Footer
 st.markdown("---")
 st.caption("Site powered by Streamlit | Designed by Dallas Hall")
-
 
