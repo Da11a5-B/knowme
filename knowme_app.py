@@ -49,7 +49,6 @@ show_lightbox("Tech Innovations", "Innovative projects leveraging AI and LLMs.")
 # Resume Download
 st.subheader("Download My Resume")
 with open("resume.pdf", "rb") as file:
-    st.download_button(label="Download PDF", data=file, file_name="Dallas_Hall_Resume.pdf", mime="application/pdf")
 
 # Media and External Links Section
 st.subheader("Featured Media")
